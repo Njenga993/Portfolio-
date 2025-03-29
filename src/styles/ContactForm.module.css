@@ -1,0 +1,33 @@
+/* Contact Form */
+.contactForm {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .contactForm button {
+    width: 100%;
+    padding: 10px;
+    background: #00ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contactForm button:hover {
+    background: #008b8b;
+  }
+  

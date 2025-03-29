@@ -1,0 +1,120 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Contact Info & Map side by side */
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 100%;
+  }
+  
+  /* Contact Cards */
+  .contactCard {
+    background: #111;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    flex: 1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Neon border and hover effect */
+  .contactCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+  }
+  
+  /* Contact Info Card */
+  .infoCard {
+    border: 2px solid cyan;
+  }
+  
+  /* Map Card */
+  .mapCard {
+    border: 2px solid lime;
+  }
+  
+  .mapCard iframe {
+    width: 100%;
+    height: 250px;
+  }
+  
+  /* Icons */
+  .icon {
+    margin-right: 8px;
+    color: cyan;
+  }
+  
+  .mapIcon {
+    font-size: 2rem;
+    color: lime;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Form */
+  .formCard {
+    background: #111;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid cyan;
+  }
+  
+  /* Form Styling */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    padding: 0.8rem;
+    border: 2px solid cyan;
+    background: #222;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .contactForm input:focus,
+  .contactForm textarea:focus {
+    outline: none;
+    border-color: lime;
+  }
+  
+  .submitButton {
+    background: cyan;
+    padding: 0.8rem;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .submitButton:hover {
+    background: lime;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .topSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
